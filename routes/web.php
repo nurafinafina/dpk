@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'halaman home';
+});
+Route::get('/about', function () {
+    return 'halaman about';
+});
+Route::get('/contact', function () {
+    return 'halaman contact';
 });
